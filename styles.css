@@ -1,8 +1,8 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: inherit;
 }
 
@@ -12,10 +12,10 @@ html {
 }
 
 body {
-    word-spacing: 50;
+    word-spacing: 5px;
     background-color: white;
     color: black;
-    margin: 0;
+    margin: 0px;
 }
 
 header {
@@ -27,14 +27,17 @@ header {
 main section {
     background-color: black;
     color: white;
-    word-spacing: 50;
+    word-spacing: 5px;
 }
 
-nav a {
-    padding: 1rem;
-    position: center;
+.middleanchor {
+    margin-right: auto;
+    margin-left: auto;
+    width: 16rem;
+    text-size-adjust: 30%;
 }
-nav button {
+
+.rightside {
     position: absolute;
     top: 00.7rem;
     right: 1rem;
@@ -57,6 +60,18 @@ button {
     list-style-type: none;
     top: 0.7rem;
     right: 1rem;
+}
+
+.home img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #000 100%);
+    height: auto;
+    width: 100%;
+    content: '';
 }
 
 .container {
