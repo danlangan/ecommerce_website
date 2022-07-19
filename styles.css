@@ -35,7 +35,7 @@ nav a {
     position: fixed, center;
 }
 
-nav ul {
+button {
     position: absolute;
     list-style-type: none;
     top: 0.7rem;
