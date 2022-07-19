@@ -24,7 +24,7 @@ header {
     padding: 1rem;
 }
 
-main section home {
+main section {
     background-color: black;
     color: white;
     word-spacing: 50;
@@ -32,23 +32,47 @@ main section home {
 
 nav a {
     padding: 1rem;
-    position: fixed, center;
+    position: center;
+}
+nav button {
+    position: absolute;
+    top: 00.7rem;
+    right: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 00.7rem;
+    left: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-left: 00.5rem;
 }
 
 button {
-    position: absolute;
+    position: right;
     list-style-type: none;
     top: 0.7rem;
     right: 1rem;
 }
 
-nav ul2 {
-    position: absolute, fixed;
-    list-style-type: none;
+.container {
+    position: relative;
 }
 
-.home img {
-    float: left;
-    margin-top: 3rem;
-    width: 500px;
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
 }
