@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    word-spacing: 50;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+}
+
+main section home {
+    background-color: black;
+    color: white;
+    word-spacing: 50;
+}
+
+nav a {
+    padding: 1rem;
+    position: fixed, center;
+}
+
+nav ul {
+    position: absolute;
+    list-style-type: none;
+    top: 0.7rem;
+    right: 1rem;
+}
+
+nav ul2 {
+    position: absolute, fixed;
+    list-style-type: none;
+}
+
+.home img {
+    float: left;
+    margin-top: 3rem;
+    width: 500px;
+}
