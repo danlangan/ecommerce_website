@@ -16,12 +16,13 @@ body {
     background-color: white;
     color: black;
     margin: 0px;
+    padding: 3rem
 }
 
 header {
     background-color: white;
-    position: relative;
-    padding: 1rem;
+    position:  fixed, relative;
+    padding: 3rem;
     text-decoration: none;
 }
 
@@ -29,6 +30,8 @@ main section {
     background-color: black;
     color: white;
     word-spacing: 5px;
+    padding: 3rem;
+    
 }
 
 .middleanchor {
@@ -37,12 +40,16 @@ main section {
     width: 20rem;
     text-decoration: none;
     font-size: medium;
+    font: caption;
+    text-decoration-style: black;
 }
 
 .rightside {
     position: absolute;
     top: 00.7rem;
     right: 1rem;
+    padding: 3rem;
+    font: caption;
 }
 
 nav a {
@@ -55,12 +62,14 @@ nav ul {
     top: 00.7rem;
     left: 1rem;
     font-size: medium;
+    padding: 3rem
 }
 
 nav li {
     display: inline;
-    margin-left: 00.5rem;
-    word-spacing: 5px;
+    padding: 00.5rem;
+    word-spacing: 3rem;
+    font: caption;
 }
 
 button {
@@ -103,13 +112,21 @@ button {
 
 .image1 {
     float: below;
-    margin-top: 3rem;
+    padding-top: 3rem;
     height: 300px;
 
 }
 
 .image2 {
     float: right;
-    margin-left: 3rem;
+    padding-left: 3rem;
     height: 400px;
+}
+
+.aboutp2 {
+    object-position: center;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
 }
