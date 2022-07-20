@@ -26,12 +26,35 @@ header {
     text-decoration: none;
 }
 
-main section {
+main.home {
     background-color: black;
     color: white;
     word-spacing: 5px;
     padding: 3rem;
-    
+
+}
+
+main.about {
+    padding-top: 5rem;
+    background-color: white;
+    color: black;
+    word-spacing: 5px;
+    padding: 3rem;
+    font-size: 6px;
+
+}
+
+h3 {
+    text-decoration: underline;
+    font: caption;
+    font-size: larger;
+}
+
+main.aboutp2 {
+    background-color: white;
+    color: black;
+    word-spacing: 5px;
+    padding: 3rem;
 }
 
 .middleanchor {
@@ -78,11 +101,17 @@ button {
     top: 0.7rem;
     right: 1rem;
     font-size: medium;
+    
+}
+
+.home {
+    background-color: #000;
+    margin: 0rem;
 }
 
 .home img {
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: auto;
+    padding-left: auto;
     height: 400px;
     display: block;
     position: relative;
@@ -101,13 +130,19 @@ button {
     top: 8px;
     left: 16px;
     font-size: 18px;
+    color: white;
+    inline-size: 200px;
+    overflow-wrap: normal;
 }
 
 .bottomright {
     position: absolute;
     bottom: 8px;
-    right: 16px;
+    right: -116px;
     font-size: 18px;
+    color: white;
+    inline-size: 300px;
+    overflow-wrap: normal;
 }
 
 .image1 {
@@ -129,4 +164,9 @@ button {
     padding-top: 5rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
+}
+
+footer {
+    background-color: #BF7631;
+
 }
