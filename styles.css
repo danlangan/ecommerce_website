@@ -3,7 +3,7 @@
 *::after {
     margin: 0px;
     padding: 0px;
-    box-sizing: inherit;
+    /* box-sizing: inherit; */
 }
 
 html {
@@ -34,6 +34,18 @@ main.home {
 
 }
 
+h3 {
+    /* border-bottom-color: #000;
+    border-bottom-style: groove; */
+    font: caption;
+    font-size: 30px;
+}
+
+.about-line{
+    width: 66%;
+    border: 2px solid black;
+}
+
 main.about {
     padding-top: 5rem;
     background-color: white;
@@ -41,29 +53,38 @@ main.about {
     word-spacing: 5px;
     padding: 3rem;
     font-size: 6px;
+    max-width: 25ch;
+}
+
+.aboutp1 {
+    width: 900px;
+    padding-top: 5rem;
+    padding-left: 8rem;
+    padding-right: 35rem;
 
 }
 
-h3 {
-    text-decoration: underline;
-    font: caption;
-    font-size: larger;
-}
-
-main.aboutp2 {
+.aboutp2 {
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+    display: block;
+    width: 33.33%;
     background-color: white;
     color: black;
     word-spacing: 5px;
-    padding: 3rem;
+    padding-left: 25%;
+    align-items: center;
 }
-
+.about-right-image-container {
+    display: block;
+}
 .middleanchor {
     margin-right: auto;
     margin-left: auto;
     width: 20rem;
-    text-decoration: none;
     font-size: medium;
     font: caption;
+    font-display: black;
     text-decoration-style: black;
 }
 
@@ -84,7 +105,7 @@ nav ul {
     position: absolute;
     top: 00.7rem;
     left: 1rem;
-    font-size: medium;
+    font-size: auto;
     padding: 3rem
 }
 
@@ -100,8 +121,6 @@ button {
     list-style-type: none;
     top: 0.7rem;
     right: 1rem;
-    font-size: medium;
-    
 }
 
 .home {
@@ -110,17 +129,15 @@ button {
 }
 
 .home img {
-    padding-right: auto;
-    padding-left: auto;
     height: 400px;
     display: block;
-    position: relative;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #000 100%);
     height: auto;
     width: 100%;
-    content: '';
 }
-
+.gradient{
+    align-content: center;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #000 100%);
+}
 .container {
     position: relative;
 }
@@ -146,27 +163,128 @@ button {
 }
 
 .image1 {
-    float: below;
-    padding-top: 3rem;
-    height: 300px;
-
+    float: left;
+    padding-top: 5rem;
+    width: 18%;
 }
 
 .image2 {
     float: right;
-    padding-left: 3rem;
-    height: 400px;
+    padding-left: 0rem;
+    padding-top: 5rem;
+    width: 400px;
 }
 
-.aboutp2 {
-    object-position: center;
-    padding-left: 5rem;
+h4 {
+    font: caption;
+    font-size: 30px;
+}
+
+.products {
+    padding-top: 15rem;
+}
+
+.products-line {
+    width: 50%;
+    border: 2px solid black;
+}
+
+.grid-product {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 70px;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+.product-image {
+    width: 250px;
+    align-self: center;
+
+}
+
+.product-card {
+    align-items: center;
+}
+
+.product-card button {
+    background-color: #BF7631;
+    font: white caption;
+}
+
+.product-card-line {
+    width: 75%;
+    border: 2px solid black;
+}
+
+h5 {
+    font: caption;
+    font-size: 30px;
+}
+
+.contact {
+    padding-top: 15rem;
+}
+
+.contact-line {
+    width: 66%;
+    border: 2px solid black;
+}
+
+.contact-form {
     padding-top: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 20rem;
+    display: block;
+    width: 50%;
+    background-color: white;
+    color: black;
+    word-spacing: 5px;
+    padding-left: 25%;
+}
+
+.contact-form li {
+    list-style-type: none;
+    padding: 0.5rem;
+    font-size: larger;
+    font: caption;
+    align-items: center;
 }
 
 footer {
+    color: #BF7631;
     background-color: #BF7631;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer ul {
+    display: inline;
+
+}
+
+footer li {
+    display: inline;
+}
+
+footer li img {
+    height: 30px;
+}
+
+.footeranchor {
+    margin-right: auto;
+    margin-left: auto;
+    width: 20rem;
+    font-size: medium;
+    font: caption;
+    font-display: black;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
 
 }
