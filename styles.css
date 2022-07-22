@@ -121,6 +121,7 @@ button {
     list-style-type: none;
     top: 0.7rem;
     right: 1rem;
+    margin-left: 3rem;
 }
 
 .home {
@@ -209,11 +210,18 @@ h4 {
 .product-card {
     align-items: center;
     border-radius: 5rem;
+    font: caption;
 }
 
 .product-card button {
     background-color: #BF7631;
     font: white caption;
+}
+
+.product-card a {
+    text-decoration: underline;
+    font: caption;
+    color: #BF7631;
 }
 
 .product-card-line {
